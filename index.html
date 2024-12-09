@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anime Recommendation System</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>Anime Recommendation System</h1>
+        <form id="preferences-form">
+            <label for="mood">Select Mood:</label>
+            <select id="mood" name="mood">
+                <option value="comedy">Comedy</option>
+                <option value="action">Action</option>
+                <option value="romance">Romance</option>
+                <option value="drama">Drama</option>
+            </select>
+            <button type="submit">Get Recommendations</button>
+        </form>
+
+        <div id="recommendations" class="recommendations"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
